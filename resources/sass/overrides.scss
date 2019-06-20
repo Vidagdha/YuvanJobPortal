@@ -1,0 +1,476 @@
+.jobguru-header-area {
+    background-color: #FFFFFF !important;
+    -ms-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+}
+
+.jobguru-header-area .header-right-menu ul li a, .jobguru-header-area .header-menu ul li a {
+    color: #393941 !important;
+}
+
+.jobguru-header-area .header-right-menu ul li.post-jobs{
+    color: #FFF !important;
+}
+
+.jobguru-header-area .header-menu ul li.has-children>a:after{
+    color: #393941 !important;
+}
+
+.breadcromb-top.section_100{
+    padding: 40px 0 !important;
+}
+
+.active-breadcromb{
+    font-weight: bold !important;
+}
+
+.breadcromb-box h3{
+    font-size: 36px !important;
+}
+
+.site-logo{
+    padding-right: 0;
+}
+
+.card.verification-card{
+    margin: 200px 0 120px 0;
+    -webkit-border-radius: 2px !important;
+    -moz-border-radius: 2px !important;
+    border-radius: 2px !important;
+    -ms-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card.verification-card .card-header{
+    background-color: #1A237E;
+    color: #FFFFFF;
+}
+
+.card.verification-card .card-body{
+    background-color: #FFF !important;
+    color: #269c58;
+}
+
+.card.verification-card .card-body a{
+    color: #1A237E;
+}
+
+.card.verification-card .card-body a:hover{
+    color: #1A1A1A;
+}
+
+.breadcromb-top {
+    position: relative;
+    background: linear-gradient(to right, rgba(0, 255, 137, 0.5), rgba(0, 137, 202, 0.5)), url('../img/breadcromb_bg.png') no-repeat scroll center center/cover;
+    z-index: 1;
+}
+
+.company-list-btn a.jobguru-btn{
+    background-color: #1A237E !important;
+    color: #FFF;
+    border-radius: 40px;
+}
+
+.section_20{
+    padding: 20px 0;
+}
+
+.section_40{
+    padding: 40px 0;
+}
+
+.company-list-btn a.jobguru-btn:hover{
+    background-color: #04c !important;
+    border: 1px solid #04c !important;
+}
+
+.single-candidate-page{
+    background: linear-gradient(to right, rgba(0, 255, 137, 0.5), rgba(0, 137, 202, 0.5)), url(../img/breadcromb_bg.png) no-repeat scroll center center/cover;
+}
+
+.single-candidate-img img{
+    margin-top: 10px;
+    background-color: #ffffff;
+    padding: 8px;
+    -ms-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.single-candidate-box-right h4{
+    color: #1A237E;
+}
+
+.single-candidate-box-right p{
+    color: #444444;
+}
+
+.single-candidate-box-right p a{
+    color: #04c;
+}
+
+.single-candidate-box-right p a:hover{
+    color: #1A237E;
+}
+
+.company-list-details p{
+    margin-right: 20px;
+}
+
+.single-input select {
+    display: block;
+    width: 100%;
+    border: 2px solid #e8ecec;
+    padding: 9.5px 10px;
+    border-radius: 3px;
+    color: #666;
+}
+
+.single-input select.my-select {
+    display: block;
+    width: 100%;
+    border: 2px solid #e8ecec;
+    height: 44px;
+    padding: 0px 10px !important;
+    border-radius: 3px;
+    color: #666;
+}
+
+input[type="text"], textarea {
+    outline: none;
+    box-shadow: none !important;
+}
+
+.single-resume-feild.feild-flex-2 .single-input {
+    margin-right: 15px;
+    margin-left: 0;
+}
+
+.single-resume-feild.feild-flex-2 .single-input:last-child {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.resume-avatar-upload.resume{
+    margin: 0px !important;
+    width: 100%;
+    text-align: center;
+}
+
+.resume-avatar-upload>p {
+    cursor: pointer;
+}
+
+.footer-logo img{
+    max-width: 190px;
+}
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background: #fff;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #1A237E;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.resume-avatar-upload{
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.resume-avatar-upload:hover{
+    background-color: #04c;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.submit-resume button{
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.submit-resume button:hover{
+    background-color: #04c;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.alert-success{
+    font-weight: bold !important;
+    background: linear-gradient(to right, rgba(0, 255, 137, 0.5), rgba(0, 137, 202, 0.5)), url('../img/breadcromb_bg.png') no-repeat scroll center center/cover !important;
+    color: #000 !important;
+}
+
+.alert-danger{
+    font-weight: bold !important;
+    background: linear-gradient(to right, rgba(255, 177, 0, 0.5), rgba(183, 0, 0, 0.9)), url('../img/breadcromb_bg.png') no-repeat scroll center center/cover !important;
+    color: #000 !important;
+}
+
+.download-link{
+    color: #04a562;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    text-decoration: underline;
+}
+.download-link:hover{
+    color: #1A237E;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    text-decoration: underline;
+}
+
+.header-right-menu ul {
+    margin-top: 10px;
+}
+
+.jobguru-header-area .header-right-menu ul li a.post-jobs{
+    color: #FFF !important;
+}
+
+.dashboard-container{
+    padding: 70px;
+}
+
+.dashboard-container.employer{
+    padding: 100px 0 200px;
+}
+
+.table.data-table{
+    text-align: left !important;
+}
+
+.table.data-table th{
+    background-color: #00c3e2;
+    color: #333;
+    font-weight: bold;
+}
+
+.table.data-table th, .table.data-table td {
+    padding: 8px 10px;
+}
+
+.dashboard-menu li a:hover, .dashboard-menu li.active a{
+    color: #04c !important;
+}
+
+.non-stick-logo, .stick-logo{
+    max-width: 140px;
+}
+
+.slicknav_menu .slicknav_icon-bar {
+    background-color: #1A237E;
+}
+
+.jobguru-breadcromb-area {
+    margin-top: 82px;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 15px 100px;
+    background: #FFFFFF;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+header .logo{
+    float: left;
+}
+header .logo img{
+    max-width: 150px;
+}
+header nav{
+    float: right;
+}
+header nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+header nav ul li{
+    list-style-type: none;
+    margin-right: 15px;
+    padding: 5px 0;
+}
+header nav ul li:last-child{
+    margin-right: 0px;
+}
+header nav ul li a{
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    padding: 0 2px;
+    color: #666;
+    position: relative;
+    display: block;
+    letter-spacing: 0.8px;
+    word-spacing: 4px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+header nav ul li.active a.menu-link{
+    color: #1A237E;
+}
+header nav ul li a i{
+    margin-right: 6px;
+}
+header nav ul li.active a.menu-link:after{
+    content: '';
+    height: 1.55px;
+    background: #1A237E;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    transition: all 0.4s ease;
+}
+header nav ul li a.menu-link:after{
+    content: '';
+    height: 1.55px;
+    background: #1A237E;
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    width: 0%;
+    transition: all 0.4s ease;
+}
+header nav ul li a.menu-link:hover{
+    color: #1A237E;
+}
+header nav ul li a.menu-link:hover:after{
+    left: 0;
+    width: 100%;
+    transition: all 0.4s ease;
+}
+header nav ul li a.post-job-btn{
+    background-color: #1A237E;
+    color: #FFF;
+    padding: 0 20px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+}
+.menu-toggle{
+    color: #1A237E;
+    float: right;
+    line-height: 55px;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+@media (max-width: 991px){
+    header{
+        padding: 15px 20px;
+    }
+}
+@media (max-width: 767px){
+    header{
+        padding: 15px 20px;
+    }
+    .menu-toggle{
+        display: block;
+    }
+    header nav{
+        position: absolute;
+        width: 100%;
+        background: #1A237E;
+        left: -100%;
+        top: 82px;
+        z-index: 999999;
+        transition: all 0.4s ease;
+    }
+    header nav.active{
+        left: 0;
+        transition: all 0.4s ease;
+    }
+    header nav ul{
+        display: block;
+        text-align: center;
+    }
+    header nav ul li{
+        margin: 0px;
+        padding: 0px 2px;
+    }
+
+    header nav ul li a{
+        border-bottom: 1px solid #000855 !important;
+        border-radius: 0px !important;
+        color: #FFF;
+    }
+    header nav ul li.active a{
+        border-bottom: 1px solid #000855 !important;
+        border-radius: 0px !important;
+        color: #FFF !important;
+    }
+    header nav ul li.active a{
+        background-color: #04c !important;
+    }
+    header nav ul li a:hover{
+        background-color: #04c !important;
+        color: #FFF !important;
+    }
+}
+
+.jobguru-banner-area{
+    margin-top: 82px;
+}
+
+.my-btn{
+     background-color: #1A237E;
+     color: #fff;
+ }
+
+.my-btn:hover{
+    background-color: #04c;
+    color: #fff;
+}
